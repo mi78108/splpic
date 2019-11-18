@@ -6,7 +6,7 @@ Export Hikvision NAS Store Picture
 
 `splipic -s/home/nas -t/mnt/target -d20191010101010-20191010111111`
 
-or  从-至今
+    or  至今
 
 `splipic -s/home/nas -t/mnt/target -d20191010101010`
 
@@ -22,5 +22,10 @@ or  从-至今
 
 `splipic -n50 -s/home/nas -t/mnt/target -r%Y-%m-%d -u12345678-12345678`
 
-* 日志打印在 标准输出 `stderr` 标准输出中`stdout` 打印导出的文件绝对路径
+* 日志打印在错误输出中 `stderr`中.
+  标准输出中`stdout` 打印导出的文件绝对路径,可直组合管道，或者java调用。
+ 
+* 参数中不可有空格,-s后加网络存储的路径 -t后加解析出的图片存放路径。
+
+* 支持Windows Linux MacOs, 可静态编译，直接拷贝使用不需要安装依赖.
 
