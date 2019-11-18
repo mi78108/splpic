@@ -1,0 +1,1 @@
+{"rustc":1812693276220879782,"features":"[\"default\", \"use_std\"]","target":10088282520713642473,"profile":2574335274271406459,"path":9391829017389992877,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/memchr-3c8e3f23a6c61e4b/dep-build-script-build_script_build-3c8e3f23a6c61e4b"}}],"rustflags":[],"metadata":2920040441970090600}
